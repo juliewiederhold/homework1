@@ -1,0 +1,150 @@
+@import url(http://fonts.googleapis.com/css?family=Kite+One);
+@import url(http://fonts.googleapis.com/css?family=Life+Savers);
+/* #FFC409 reset CSS file to reset browser default styling to a consistent starting point */
+@import url(reset.css);
+
+body {
+ 	background-color: #9480E8;
+ 	font-family: 'Kite One', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+header {
+	font-size: 85px;
+	font-family: 'Life Savers', sans-serif;
+	font-weight: bold;
+}
+
+nav {
+	margin-bottom: 10px;
+}
+
+nav ul {
+	background-color: #FFB406;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0px;
+	font-size: 25px;
+}
+
+nav a{
+	display: inline-block;
+	color: #FFF;
+	font-weight: bold;
+	margin: 15px;
+}
+
+nav a:link,
+nav a:visited {
+	text-decoration: none;
+}
+
+nav li:hover {
+	background-color: #FF9A40;
+	border-radius: 5px;
+}
+
+table {
+	width: 100%;
+}
+
+table th{
+	text-decoration: underline;
+	font-size: 25px;
+}
+
+table td{
+	text-align: center;
+	padding-top: 15px;
+
+}
+
+dl {
+	color: #FFB406;
+	font-family: "Life Savers", sans-serif;
+	font-size: 30px;
+}
+
+dl dt{
+	text-decoration: underline;
+	margin-bottom: 5px;
+	color: #000;
+	font-family: "Kite One";
+	font-size: 20px;
+}
+
+dl dd{
+	font-size: 15px;
+	margin-top: 0px;
+	color: #000;
+	font-family: "Kite One";
+}
+
+footer {
+	font-size: 80%;
+	font-style: italic;
+	border-style: solid;
+	border-top: thin double #d3d3d3;
+	margin-top: 50px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.heading {
+	padding: 10px;
+	margin: 0 auto;
+	width: 80%;
+	box-shadow: 2px 2px 6px #d3d3d3;
+	background-color: #FFF;
+}
+
+.motto {
+	font-family: 'Kite One', sans-serif;
+	font-size: 120%;
+}
+
+.menu-title {
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Life Savers', sans-serif;
+	color: #FFB406;
+}
+
+.sub-header {
+	font-size: 30px;
+	font-weight: bold;
+	color: #FFB406;
+	text-align: center;
+}
+
+.logo {
+	height: 150px;
+	width: 175px;
+	float: left;
+	margin: 15px;
+}
+
+.top-image {
+	height: 250px;
+	width: 95%;
+	margin-top: 5px;
+}
+
+.content{
+	text-align: center;
+	margin: 35px;
+}
+
+.menu-content {
+	font-size: 20px;
+}
+
+.external-link{
+	margin: 0px;
+	text-decoration: none;
+}
