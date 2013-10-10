@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Kite+One);
 @import url(http://fonts.googleapis.com/css?family=Life+Savers);
-/* #FFC409 reset CSS file to reset browser default styling to a consistent starting point */
+/* line-height may help closeness of lines #FFC409 reset CSS file to reset browser default styling to a consistent starting point */
 @import url(reset.css);
 
 body {
@@ -11,13 +11,22 @@ body {
 }
 
 header {
-	font-size: 85px;
+	font-size: 25px;
 	font-family: 'Life Savers', sans-serif;
+	margin: 5px;
+}
+
+h1{
+	font-size: 350%;
 	font-weight: bold;
+	margin-top: 0px;
+	margin-left: 5px;
+	text-align: left;
 }
 
 nav {
 	margin-bottom: 10px;
+	clear: both;
 }
 
 nav ul {
@@ -64,12 +73,6 @@ table td{
 
 }
 
-dl {
-	color: #FFB406;
-	font-family: "Life Savers", sans-serif;
-	font-size: 30px;
-}
-
 dl dt{
 	text-decoration: underline;
 	margin-bottom: 5px;
@@ -95,20 +98,21 @@ footer {
 	text-align: center;
 }
 
-.heading {
+.content {
 	padding: 10px;
 	margin: 0 auto;
 	width: 80%;
-	box-shadow: 2px 2px 6px #d3d3d3;
 	background-color: #FFF;
+	border: 10px solid #FFB406;
 }
 
 .motto {
 	font-family: 'Kite One', sans-serif;
-	font-size: 120%;
+	margin: 5px;
+
 }
 
-.menu-title {
+.menu-heading {
 	text-align: center;
 	font-size: 50px;
 	font-family: 'Life Savers', sans-serif;
@@ -123,10 +127,10 @@ footer {
 }
 
 .logo {
-	height: 150px;
-	width: 175px;
+	height: 175px;
+	width: 190px;
 	float: left;
-	margin: 15px;
+	margin:5px;
 }
 
 .top-image {
@@ -135,13 +139,26 @@ footer {
 	margin-top: 5px;
 }
 
-.content{
+.body-text{
 	text-align: center;
 	margin: 35px;
 }
 
+.note {
+	text-align: center;
+	font-weight: bolder;
+	margin: 5px;
+}
+
 .menu-content {
 	font-size: 20px;
+}
+
+.menu-title {
+	color: #FFB406;
+	font-family: "Life Savers", sans-serif;
+	font-size: 30px;
+	text-align: left;
 }
 
 .external-link{
